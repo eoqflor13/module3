@@ -7,6 +7,10 @@ h1 {
   color: black;
 }
 
+h1:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
 body {
   background-color: white;
 }
@@ -49,10 +53,6 @@ section {
   padding: 5px;
   background-color: lightblue;
   text-transform: uppercase;
-}
-
-#breakfast:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
 }
 
 #breakfast-div {
