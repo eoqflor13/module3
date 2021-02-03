@@ -1,82 +1,58 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1 {
-	font-family: sans-serif;
-	color: #85394e;
+  font-family: sans-serif;
+  color: black;
 }
 
 body {
-	background-color: #d8d8d8;
+  background-color: white;
 }
 
 p {
-	padding: 10px;
-	margin: 0;
+  padding: 10px;
+  margin: 0;
 }
 
 .container {
-	border: none;
+  border: none;
   margin-top: 10px;
   margin-bottom: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
 section {
-	border:	1px solid black;
-	background-color: lightgray;
-	width: 100%;
-	height: auto;
-	font-family: monospace;
-	color: black;
-	position: relative;
-	overflow: auto;
+  border: 1px solid black;
+  background-color: lightgray;
+  width: 100%;
+  height: auto;
+  font-family: math;
+  color: black;
+  position: relative;
+  overflow: auto;
 }
 
 #breakfast {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
-	background-color: #FFFF00;
+  margin-bottom: 0;
+  margin-top: 0;
+  border: 1px solid black;
+  text-align: center;
+  width: 40%;
+  margin-left: 60%;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 150%;
+  padding: 5px;
+  background-color: lightblue;
+  text-transform: uppercase;
 }
 
-#lunch {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
-	background-color: #FF1439;
-}
-
-#dinner {
-	border: 1px solid black;
-	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	background-color: #6495ED;
-	color: white;
-	padding: 5px;
+#breakfast:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
 }
 
 #breakfast-div {
@@ -84,9 +60,39 @@ section {
   margin-top: 10px;
 }
 
+#lunch {
+  margin-bottom: 0;
+  margin-top: 0;
+  border: 1px solid black;
+  text-align: center;
+  width: 40%;
+  margin-left: 60%;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 150%;
+  padding: 5px;
+  background-color: lightpink;
+  text-transform: uppercase;
+}
+
 #lunch-div {
   margin-bottom: 10px;
   margin-top: 10px;
+}
+
+#dinner {
+  margin-bottom: 0;
+  margin-top: 0;
+  border: 1px solid black;
+  text-align: center;
+  width: 40%;
+  margin-left: 60%;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 150%;
+  padding: 5px;
+  background-color: lightseagreen;
+  text-transform: uppercase;
 }
 
 #dinner-div {
@@ -102,12 +108,13 @@ section {
 
 #header-nav {
   border: 0;
-  background-color: #FC5F06;
+  background-color: lightsalmon;
   color: #FFFFFF;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid;
+  color: black
 }
 .navbar-header button.navbar-toggle {
   clear: both;
