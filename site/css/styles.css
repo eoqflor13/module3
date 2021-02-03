@@ -4,11 +4,11 @@
 
 h1 {
 	font-family: sans-serif;
-	color: #000000;
+	color: #85394e;
 }
 
 body {
-	background-color: #FEF5CA;
+	background-color: #d8d8d8;
 }
 
 p {
@@ -30,7 +30,7 @@ section {
 	background-color: lightgray;
 	width: 100%;
 	height: auto;
-	font-family: fantasy;
+	font-family: monospace;
 	color: black;
 	position: relative;
 	overflow: auto;
